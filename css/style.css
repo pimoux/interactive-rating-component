@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: #121417;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main .card {
+  padding: 1.5rem;
+  width: 85%;
+  height: 50vh;
+  border-radius: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#252d37), to(#181B23));
+  background: linear-gradient(#252d37, #181B23);
+}
+
+#main .card .star-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #303a46;
+  cursor: pointer;
+}
+
+#main .card .star-button img {
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+}
+
+#main .card .how-did-we-do {
+  color: white;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#main .card .leave-advice {
+  color: #7c8798;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.75px;
+}
+
+#main .card .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#main .card .rating .rate-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 100%;
+  font-family: "Overpass", sans-serif;
+  background-color: #252d37;
+  color: #7c8798;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+#main .card .rating .rate-button.active {
+  background-color: #fb7413;
+  color: white;
+}
+
+#main .card .rating .rate-button:hover {
+  background-color: #7c8798;
+  color: white;
+}
+
+#main .card .submit {
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: #fb7413;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 6rem;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  cursor: pointer;
+}
+
+#main .card .submit:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.card.thank-you {
+  display: none;
+}
+
+.card .illustration-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .illustration-container img {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.card .rate-selected-container {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: #252d37;
+  border-radius: 1.5rem;
+}
+
+.card .rate-selected-container .rate-selected {
+  margin: 0;
+  color: #fb7413;
+  font-size: 15px;
+}
+
+.card .thank-you-text {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.card .thank-you-paragraph {
+  text-align: center;
+  color: #7c8798;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+}
+/*# sourceMappingURL=style.css.map */
