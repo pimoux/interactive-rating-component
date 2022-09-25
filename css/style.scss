@@ -38,7 +38,7 @@ body {
     padding: 1.5rem;
     width: 85%;
     height: 50vh;
-    border-radius: 1rem;
+    border-radius: 2rem;
     background: linear-gradient($darkBlue, #181B23);
 }
 
@@ -163,4 +163,41 @@ body {
     color: $mediumGrey;
     font-size: 15px;
     letter-spacing: -0.5px;
+}
+
+@media screen and (min-width: 1440px) {
+    #main .card {
+        width: 28%;
+        height: 400px;
+        padding: 2.25rem;
+    }
+
+    #main .card .how-did-we-do {
+        margin: 2rem 0;
+        margin-bottom: 0.5rem;
+    }
+
+    #main .card .leave-advice,
+    #main .card .thank-you-paragraph {
+        letter-spacing: 0px;
+    }
+
+    #main .card .illustration-container {
+        margin-bottom: 2rem;
+    }
+
+    #main .card .star-button img,
+    #main .card .illustration-container img {
+        transform: scale(1);
+    }
+
+    #main .card .rating .rate-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    #main .card .thank-you-text {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
 }
